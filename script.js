@@ -1,5 +1,5 @@
 const CLIENT_ID = 'a09b4a4a8f5d407c9e69e0a5dc76deb9'; // Replace with your Spotify client ID
-const REDIRECT_URI = 'http://localhost:8000/callback/'; // This should match the redirect URI you set in Spotify Developer Console
+const REDIRECT_URI = 'https://pradeeeep28.github.io/Music-Analyser/callback/'; // This should match the redirect URI you set in Spotify Developer Console
 const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=code&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&scope=user-library-read%20user-top-read%20playlist-read-private`;
 
 // Login Button Handler
